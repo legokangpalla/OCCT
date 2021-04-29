@@ -8,7 +8,7 @@ export aScriptDir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && p
 export aSrcRoot="${aScriptDir}/../.."
 export aBuildRoot=work
 
-export aNbJobs=${NUMBER_OF_PROCESSORS}
+export aNbJobs=1
 
 export toCMake=1
 export toClean=0
